@@ -27,7 +27,7 @@ public class RevealGrid {
         return false;
     }
     
-    private void revealHelper(int x, int y) {
+    public void revealHelper(int x, int y) {
         if (x < 0 || x >= numRows || y < 0 || y >= numCols || grid[x][y] != '?') {
             return;
         }
@@ -36,9 +36,9 @@ public class RevealGrid {
             grid[x][y] = (char)('0' + numBombs);
         } else {
             grid[x][y] = ' ';
-            for (int dx = -1; dx <= 1; dx++) {
+            for (int n = -1; n <= 1; n++) {
                 for (int dy = -1; dy <= 1; dy++) {
-                    revealHelper(x + dx, y + dy);
+                    revealHelper(x + n, y + dy);
                 }
             }
         }
