@@ -1,15 +1,14 @@
-# Project: Minesweeper
+# Project: Minesweeper CLI
 
-## Outline
+{add test badges here, all projects you build from here on out will have tests, therefore you should have github workflow badges at the top of your repositories: [Github Workflow Badges](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)}
 
-Create a simplified version of Minesweeper to be played on the Command Line using Java. Objective was to create a 10x10 grid with 10 bombs that a user can move through and find the bombs, unlike the original game, there's no flagging a bomb, however you will be told how many bombs are around a particular spot with the numbers 1-8. Empty space wil be also open up. Once the game is over you can select y/n to play again or leave.
-This was my first project in Java which came with some difficulties, I spent a lot more time debugging than in previous projects and it usually came down to something simple like not casing a type.
+## Demo & Snippets
 
-## Stack
+![alt text](src\minesweeper\images\Screenshot 2023-03-13 102616.png)
 
-- Java
+---
 
-## MVP
+## Requirements
 
 - 10x10 array, it was suggested to use a 2d array, but it was out choice.
 - User will be able to enter a command that selects coordinates on the grid.
@@ -17,9 +16,48 @@ This was my first project in Java which came with some difficulties, I spent a l
 - If the user selects a bomb, Game Over.
 - Must have the option to play again.
 
-## Updates to make
+## Stack
 
+- Java
+
+---
+
+## Build Steps
+
+- Fork this repo
+- Open project in your terminal of choice and run the Main.java file
+
+---
+
+## Design Goals / Approach
+
+- I wanted to have a grid with numbers 1-10 and 10-1 running on the left and bottom of the grid. The current iteration has this, but needs some spacing or | around it to seperate from the bomb numbers and the row/cols numbers. When I first designed the project in my mind this was a great idea but it wasn't until I put it together that I realised how the numbers looked next to eachother.
+
+---
+
+## Known issues
+
+- Numbers for the Rows/Cols don't have any spacing or lines between them and the bomb numbers.
+- Not enough tests.
+
+---
+
+## Future Goals
+
+- Fix the number spacing. Maybe make the grid gaps bigger too(depends how this looks).
+- Continue to add tests.
 - I would love to add the option of Flags.
 - Need to check out some animations for the reveal of empty space.
-- Add an option to have a bigger grid with more bombs.
+- Add an option to have a bigger grid with more bombs. (Easy/Medium/Hard)
 - Add colors to cli.
+
+---
+
+## Change logs
+
+- 13/03/23. Updated Readme.
+
+## What did you struggle with?
+
+- First time using Java. Getting used to type casting was the initial issue. From there using the 2d Array and being able to iterate over it chosing a particular spot.
+- I didn't spend enough time planning the project, I jumped straight in and hit a road block after creating the grid. I pieced it together eventually, but things could have been better.
