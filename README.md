@@ -4,7 +4,8 @@
 
 ## Demo & Snippets
 
-![alt text](src\minesweeper\images\Screenshot 2023-03-13 102616.png)
+<img width="173" alt="Screenshot 2023-03-13 102616" src="https://user-images.githubusercontent.com/78459081/224581793-d3dbd8db-39d6-4a72-98ef-6a135cb2baa6.png">
+
 
 ---
 
