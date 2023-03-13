@@ -1,10 +1,10 @@
 # Project: Minesweeper CLI
 
-{add test badges here, all projects you build from here on out will have tests, therefore you should have github workflow badges at the top of your repositories: [Github Workflow Badges](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)}
+![Deploy_badge](https://github.com/mitchanderson202/Minesweeper/actions/workflows/main.java/badge.svg)
 
 ## Demo & Snippets
 
-<img width="173" alt="Screenshot 2023-03-13 102616" src="https://user-images.githubusercontent.com/78459081/224581793-d3dbd8db-39d6-4a72-98ef-6a135cb2baa6.png">
+<img width="173" alt="minesweeper game image" src="https://user-images.githubusercontent.com/78459081/224581793-d3dbd8db-39d6-4a72-98ef-6a135cb2baa6.png">
 
 
 ---
