@@ -1,6 +1,5 @@
 # Project: Minesweeper CLI
 
-![Deploy_badge](https://github.com/mitchanderson202/Minesweeper/actions/workflows/main.java/badge.svg)
 
 ## Demo & Snippets
 
@@ -30,7 +29,7 @@
 
 ---
 
-## Design Goals / Approach
+## Design Goals && Approach
 
 - I wanted to have a grid with numbers 1-10 and 10-1 running on the left and bottom of the grid. The current iteration has this, but needs some spacing or | around it to seperate from the bomb numbers and the row/cols numbers. When I first designed the project in my mind this was a great idea but it wasn't until I put it together that I realised how the numbers looked next to eachother.
 
